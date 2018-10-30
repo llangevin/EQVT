@@ -1,0 +1,21 @@
+Package: EQVT
+Type: Package
+Title: EarthQuakes Visualization Tools
+Version: 0.1.0
+Author: Luc Langevin
+Maintainer: Luc Langevin <luclange20@gmail.com>
+Description: A package that can be used to work with the NOAA Significant Earthquakes dataset.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: dplyr,
+    grid,
+    ggplot2,
+    leaflet,
+    lubridate,
+    tidyr
+LazyData: true
+RoxygenNote: 6.1.0
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
