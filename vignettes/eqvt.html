@@ -101,7 +101,7 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <p>Download the data from the NOAA website, saved it to your working directory and transform it to a data frame using the <code>read_delim</code> function:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(readr)
 data &lt;-<span class="st"> </span>readr<span class="op">::</span><span class="kw">read_delim</span>(<span class="st">&quot;signif.txt&quot;</span>, <span class="dt">delim =</span> <span class="st">&quot;</span><span class="ch">\t</span><span class="st">&quot;</span>)</code></pre></div>
-<p>Or you can use the file included in the package (Septemberx2018):</p>
+<p>Or you can use the file included in the package (September 2018):</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">filename &lt;-<span class="st"> </span><span class="kw">system.file</span>(<span class="st">&quot;extdata&quot;</span>, <span class="st">&quot;signif.txt&quot;</span>, <span class="dt">package=</span><span class="st">&quot;EQVT&quot;</span>)
 <span class="kw">library</span>(readr)
 data &lt;-<span class="st"> </span>readr<span class="op">::</span><span class="kw">read_delim</span>(filename, <span class="dt">delim =</span> <span class="st">&quot;</span><span class="ch">\t</span><span class="st">&quot;</span>)</code></pre></div>

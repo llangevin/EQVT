@@ -34,7 +34,7 @@ Download the data from the NOAA website, saved it to your working directory and 
 library(readr)
 data <- readr::read_delim("signif.txt", delim = "\t")
 ```
-Or you can use the file included in the package (Septemberx2018):
+Or you can use the file included in the package (September 2018):
 
 ```{r eval = FALSE}
 filename <- system.file("extdata", "signif.txt", package="EQVT")
