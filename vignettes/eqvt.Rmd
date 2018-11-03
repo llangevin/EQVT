@@ -41,6 +41,14 @@ library(readr)
 data <- readr::read_delim("signif.txt", delim = "\t")
 ```
 
+Or you can use the file included in the package (Septemberx2018):
+
+```{r eval = FALSE}
+filename <- system.file("extdata", "signif.txt", package="EQVT")
+library(readr)
+data <- readr::read_delim(filename, delim = "\t")
+```
+
 Before using the EQVT visualization tools, the data must be cleaned with the functions `eq_clean_data` and `eq_location_clean`.
 
 ```{r eval = FALSE}
