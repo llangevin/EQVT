@@ -1,3 +1,5 @@
+[![Travis-CI Build Status](https://travis-ci.org/llangevin/EQVT.svg?branch=master)](https://travis-ci.org/llangevin/EQVT)
+
 # EQVT R package
 
 EQVT is a Data Analysis and Visualization R package developped in the 5th course of the
